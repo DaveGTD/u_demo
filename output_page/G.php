@@ -49,7 +49,7 @@ exec($cmd, $output, $return_var);
 
 // var_dump($output);
 
-/*
+
 echo "<table>";
 $row_count = 0;
 foreach ($output as $row)
@@ -88,7 +88,7 @@ foreach ($output as $row)
 echo "</tbody>";
 echo "</table>";
 
-*/
+
 
 
 ?>
