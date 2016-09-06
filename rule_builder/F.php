@@ -113,7 +113,7 @@ var options = {
 
   optgroups: {
     core: {
-      en: 'amp'
+      en: 'u_demo'
     }
   },
 
@@ -154,68 +154,57 @@ var options = {
   filters: [
 
   {
-    id: 'Area',
-    label: 'Area',
+    id: 'Drug_Name',
+    label: 'Drug_Name',
     type: 'string',
-    optgroup: 'amp',
+    optgroup: 'u_demo',
     default_value: 'ELIT',
     size: 30
   },
 
   {
-    id: 'SystemName',
-    label: 'SystemName',
+    id: 'Drug_Company',
+    label: 'Drug_Company',
     type: 'string',
-    optgroup: 'amp',
-    default_value: 'L5200 Touch - Cell',
+    optgroup: 'u_demo',
+    default_value: 'Cantrell Drug Company',
     size: 30
   },
   {
-    id: 'SystemPackageName',
-    label: 'SystemPacakageName',
+    id: 'Process_Description',
+    label: 'Process_Description',
     type: 'string',
-    optgroup: 'amp',
-    default_value: 'Video: 1 Free Doorbell Camera + Cell + TC',
+    optgroup: 'u_demo',
+    default_value: 'Body measurement',
     size: 30
   },
   {
-    id: 'CreditScore',
-    label: 'CreditScore',
+    id: 'City',
+    label: 'City',
     type: 'string',
-    optgroup: 'amp',
-    default_value: 'A',
+    optgroup: 'u_demo',
+    default_value: 'New York',
     size: 30
   },
 
   {
-    id: 'StatusID',
-    label: 'StatusID',
+    id: 'Diagnosis_Code',
+    label: 'Diagnosis_Code',
     type: 'double',
-    optgroup: 'amp',
-    default_value: '3',
+    optgroup: 'u_demo',
+    default_value: '71741',
     size: 30
   },
 
   {
-    id: 'MonthlyMonitoringRate',
-    label: 'MonthlyMonitoringRate',
-    type: 'double',
-    optgroup: 'amp',
-    default_value: '',
-    size: 30,
-    validation: {
-      min: 0
-    }
-  },
-
-  {
-    id: 'QualityScore',
-    label: 'QualityScore',
-    type: 'double',
-    optgroup: 'amp',
-    default_value: '',
+    id: 'Name',
+    label: 'Name',
+    type: 'string',
+    optgroup: 'u_demo',
+    default_value: 'Carlos Murphy',
     size: 30
   }
+
 
   ]
 };

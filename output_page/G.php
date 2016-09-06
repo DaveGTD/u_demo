@@ -32,7 +32,7 @@ $conn->close();
 
 // run mongo query and return output 
 
-$cmd = "mongoexport -h ds011298.mlab.com:11298 -d amp -c amp_cus -u amp -p amp --csv -f CustomerAccountId,City,Area,SystemName,SystemPackageName,CreditScore,StatusID,MonthlyMonitoringRate,QualityScore -q '".$query_given."'";
+$cmd = "mongoexport -h ds011298.mlab.com:11298 -d amp -c u_demo -u amp -p amp --csv -f Drug_Name,Diagnosis_Code,Drug_Company,Process_Description,City,Name -q '".$query_given."'";
 
 exec($cmd, $output, $return_var);
 
