@@ -108,7 +108,7 @@ var $b = $('#builder');
 var options = {
   allow_empty: true,
 
-  default_filter: 'Area',
+  default_filter: 'City',
   sort_filters: true,
 
   optgroups: {
