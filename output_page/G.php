@@ -3,6 +3,7 @@
 $query_given = $_POST["hidden_query"];
 $tag_given = $_POST["tag"];
 
+/*
 $servername = "localhost";
 $username = "amp";
 $password = "amp";
@@ -29,6 +30,8 @@ else
 }
 
 $conn->close();
+
+*/
 
 // run mongo query and return output 
 
